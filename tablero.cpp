@@ -58,11 +58,13 @@ void Tablero::printTablero()
 			}
 			else if(map[i][j]==1)
 			{
-				cout<< "[o]";
+				//cout<< "[o]";
+				cout<< "["<< "\033[1;31m®\033[0m"<<"]";
 			}
 			else if(map[i][j]==2)
 			{
-				cout<< "[+]";
+				//cout<< "[+]";
+				cout<< "["<< "\033[1;33m®\033[0m"<<"]";
 			}			
 			else if(map[i][j]==3)
 			{
