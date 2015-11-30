@@ -16,12 +16,14 @@ void startClassic()
 		cout<< "Jugador"<< game.getPlayer();
 		if(game.getPlayer()==1)
 		{
-			cout<<" (o)"<<"\n";
+			//cout<<" (o)"<<"\n";
+			cout<< "["<< "\033[1;31m®\033[0m"<<"]";
 		}
 
 		else if(game.getPlayer()==2)
 		{
-			cout<<" (+)"<<"\n";		
+			//cout<<" (+)"<<"\n";		
+			cout<< "["<< "\033[1;33m®\033[0m"<<"]";
 		}
 		cout<< "Seleccione la columna: ";
 		int columna;
@@ -87,12 +89,14 @@ void startPop()
 		cout<< "Jugador"<< game.getPlayer();
 		if(game.getPlayer()==1)
 		{
-			cout<<" (o)"<<"\n";
+			//cout<<" (o)"<<"\n";
+			cout<< "["<< "\033[1;31m®\033[0m"<<"]";
 		}
 
 		else if(game.getPlayer()==2)
 		{
-			cout<<" (+)"<<"\n";		
+			//cout<<" (+)"<<"\n";		
+			cout<< "["<< "\033[1;33m®\033[0m"<<"]";
 		}
 		int columna;
 		int option;
@@ -195,12 +199,14 @@ void startRow()
 		cout<< "Jugador"<< game.getPlayer();
 		if(game.getPlayer()==1)
 		{
-			cout<<" (o)"<<"\n";
+			//cout<<" (o)"<<"\n";
+			cout<< "["<< "\033[1;31m®\033[0m"<<"]";
 		}
 
 		else if(game.getPlayer()==2)
 		{
-			cout<<" (+)"<<"\n";		
+			//cout<<" (+)"<<"\n";		
+			cout<< "["<< "\033[1;33m®\033[0m"<<"]";
 		}
 		cout<< "Seleccione la columna: ";
 		int columna;
@@ -266,12 +272,14 @@ void startFive()
 		cout<< "Jugador"<< game.getPlayer();
 		if(game.getPlayer()==1)
 		{
-			cout<<" (o)"<<"\n";
+			//cout<<" (o)"<<"\n";
+			cout<< "["<< "\033[1;31m®\033[0m"<<"]";
 		}
 
 		else if(game.getPlayer()==2)
 		{
-			cout<<" (+)"<<"\n";		
+			//cout<<" (+)"<<"\n";
+			cout<< "["<< "\033[1;33m®\033[0m"<<"]";
 		}
 		cout<< "Seleccione la columna: ";
 		int columna;
@@ -337,12 +345,14 @@ void startQuick()
 		cout<< "Jugador"<< game.getPlayer();
 		if(game.getPlayer()==1)
 		{
-			cout<<" (o)"<<"\n";
+			//cout<<" (o)"<<"\n";
+			cout<< "["<< "\033[1;31m®\033[0m"<<"]";
 		}
 
 		else if(game.getPlayer()==2)
 		{
-			cout<<" (+)"<<"\n";		
+			//cout<<" (+)"<<"\n";		
+			cout<< "["<< "\033[1;33m®\033[0m"<<"]";
 		}
 		cout<< "Seleccione la columna: ";
 		int columna;
