@@ -9,7 +9,7 @@ class Menu
 {
 	private:
 		bool stillAlive;
-		int cursor;
+		char cursor;
 	public:
 		Menu();
 		void startGame();
