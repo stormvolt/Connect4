@@ -24,13 +24,11 @@ void ScoreBoard::printScore()
 	cout<< "JUGADOR" << player;
 	if(player==1)
 	{
-		//cout<<" (o)";
-		cout<< "["<< "\033[1;31m®\033[0m"<<"]";
+		cout<< "("<< "\033[1;31m®\033[0m"<<")";
 	}
 	else if(player==2)
 	{
-		//cout<<" (+)";
-		cout<< "["<< "\033[1;33m®\033[0m"<<"]";
+		cout<< "("<< "\033[1;33m®\033[0m"<<")";
 	}
 	cout<< " [" << score << "] " << "turno: " << turn << "\n";
 }
