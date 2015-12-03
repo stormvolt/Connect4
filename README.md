@@ -44,6 +44,6 @@ Finaliza el programa.
 
 **2. Problemas y desafíos**
 ==========================
-El problema de mayor dificultad a la hora de programar fue el uso de templates par crear una clase lista que pudiera recibir un nodo de cualquier tipo.
-El mayor desafío fue crear una interfaz gráfica utilizando únicamente la consola (shell). Quizá utilizando un motor gráfico adicional, en un futuro, se pueda mejorar este aspecto; y así crear gráficos más limpios y un sistema de interacción con el usuario más asmigable.
+El problema de mayor dificultad a la hora de programar fue el uso de templates para crear una clase lista que pudiera recibir un nodo de cualquier tipo.
+El mayor desafío fue crear una interfaz gráfica utilizando únicamente la consola (shell). Quizá utilizando un motor gráfico adicional, en un futuro, se pueda mejorar este aspecto; y así crear gráficos más limpios y un sistema de interacción con el usuario más amigable.
 
