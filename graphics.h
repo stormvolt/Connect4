@@ -29,6 +29,7 @@ void printScreen(Tablero, ScoreBoard, ScoreBoard);
 void printScreenFive(TableroFive, ScoreBoard, ScoreBoard);
 void printWinner(int);
 void printDraw();
+void printPlayer(int);
 
 
 #endif
