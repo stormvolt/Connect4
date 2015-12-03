@@ -13,18 +13,7 @@ void startClassic()
 	while(game.getEndGame()==false)
 	{
 		cout<< "\n";
-		cout<< "Jugador"<< game.getPlayer();
-		if(game.getPlayer()==1)
-		{
-			//cout<<" (o)"<<"\n";
-			cout<< "["<< "\033[1;31m®\033[0m"<<"]";
-		}
-
-		else if(game.getPlayer()==2)
-		{
-			//cout<<" (+)"<<"\n";		
-			cout<< "["<< "\033[1;33m®\033[0m"<<"]";
-		}
+		printPlayer(game.getPlayer());
 		cout<< "Seleccione la columna: ";
 		int columna;
 		cin>> columna;
@@ -86,18 +75,7 @@ void startPop()
 	while(game.getEndGame()==false)
 	{
 		cout<< "\n";
-		cout<< "Jugador"<< game.getPlayer();
-		if(game.getPlayer()==1)
-		{
-			//cout<<" (o)"<<"\n";
-			cout<< "["<< "\033[1;31m®\033[0m"<<"]";
-		}
-
-		else if(game.getPlayer()==2)
-		{
-			//cout<<" (+)"<<"\n";		
-			cout<< "["<< "\033[1;33m®\033[0m"<<"]";
-		}
+		printPlayer(game.getPlayer());
 		int columna;
 		int option;
 		if(game.empty()==true)
@@ -196,18 +174,7 @@ void startRow()
 	while(game.getEndGame()==false)
 	{
 		cout<< "\n";
-		cout<< "Jugador"<< game.getPlayer();
-		if(game.getPlayer()==1)
-		{
-			//cout<<" (o)"<<"\n";
-			cout<< "["<< "\033[1;31m®\033[0m"<<"]";
-		}
-
-		else if(game.getPlayer()==2)
-		{
-			//cout<<" (+)"<<"\n";		
-			cout<< "["<< "\033[1;33m®\033[0m"<<"]";
-		}
+		printPlayer(game.getPlayer());
 		cout<< "Seleccione la columna: ";
 		int columna;
 		cin>> columna;
@@ -269,18 +236,7 @@ void startFive()
 	while(game.getEndGame()==false)
 	{
 		cout<< "\n";
-		cout<< "Jugador"<< game.getPlayer();
-		if(game.getPlayer()==1)
-		{
-			//cout<<" (o)"<<"\n";
-			cout<< "["<< "\033[1;31m®\033[0m"<<"]";
-		}
-
-		else if(game.getPlayer()==2)
-		{
-			//cout<<" (+)"<<"\n";
-			cout<< "["<< "\033[1;33m®\033[0m"<<"]";
-		}
+		printPlayer(game.getPlayer());
 		cout<< "Seleccione la columna: ";
 		int columna;
 		cin>> columna;
@@ -342,18 +298,7 @@ void startQuick()
 	while(game.getEndGame()==false)
 	{
 		cout<< "\n";
-		cout<< "Jugador"<< game.getPlayer();
-		if(game.getPlayer()==1)
-		{
-			//cout<<" (o)"<<"\n";
-			cout<< "["<< "\033[1;31m®\033[0m"<<"]";
-		}
-
-		else if(game.getPlayer()==2)
-		{
-			//cout<<" (+)"<<"\n";		
-			cout<< "["<< "\033[1;33m®\033[0m"<<"]";
-		}
+		printPlayer(game.getPlayer());
 		cout<< "Seleccione la columna: ";
 		int columna;
 		cin>> columna;
