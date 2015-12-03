@@ -9,29 +9,29 @@ void delay(int secs)
 
 void printTitle()
 {
-cout<<"\n";
-cout<<"a88888b.  .88888.  888888ba  888888ba  88888888b a88888b. d888888P    dP   dP "<<"\n";
-cout<<"d8'   `88 d8'   `8b 88    `8b 88    `8b 88       d8'   `88    88      88   88  "<<"\n";
-cout<<"88        88     88 88     88 88     88a88aaaa   88           88      88aaa88 "<<"\n";
-cout<<"88        88     88 88     88 88     88 88       88           88           88 "<<"\n";
-cout<<"Y8.   .88 Y8.   .8P 88     88 88     88 88       Y8.   .88    88           88"<<"\n";
-cout<<" Y88888P'  `8888P'  dP     dP dP     dP 88888888P Y88888P'    dP           dP "<<"\n";
-cout<<"\n";
-cout<<"                                      8         o   o             "<<"\n";
-cout<<"                                      8         8                 "<<"\n";
-cout<<"           oPYo. .oPYo. o    o .oPYo. 8 o    o o8P o8 .oPYo. odYo."<<"\n";
-cout<<"           8  `' 8oooo8 Y.  .P 8    8 8 8    8  8   8 8    8 8' `8"<<"\n";
-cout<<"           8     8.     `b..d' 8    8 8 8    8  8   8 8    8 8   8"<<"\n";
-cout<<"           8     `Yooo'  `YP'  `YooP' 8 `YooP'  8   8 `YooP' 8   8"<<"\n";
-cout<<"\n";
-cout<<"                                  ,ad8888ba,    "<<"\n";
-cout<<"                                 d8^' .8 `^8b   "<<"\n";
-cout<<"                                d8'  d'8   `8b  "<<"\n";
-cout<<"                                88  d' 8    88  "<<"\n";
-cout<<"                                88 Pooooooo 88  "<<"\n";
-cout<<"                                Y8,    8   ,8P  "<<"\n";
-cout<<"                                 Y8a.  8 .a8P   "<<"\n";
-cout<<"                                  `^Y8888Y^'    "<<"\n";
+	cout<<"\n";
+	cout<<"\033[1;34ma88888b.  .88888.  888888ba  888888ba  88888888b a88888b. d888888P    dP   dP \033[0m\n";
+	cout<<"\033[1;34md8'   `88 d8'   `8b 88    `8b 88    `8b 88       d8'   `88    88      88   88  \033[0m\n";
+	cout<<"\033[1;34m88        88     88 88     88 88     88a88aaaa   88           88      88aaa88 \033[0m\n";
+	cout<<"\033[1;34m88        88     88 88     88 88     88 88       88           88           88 \033[0m\n";
+	cout<<"\033[1;34mY8.   .88 Y8.   .8P 88     88 88     88 88       Y8.   .88    88           88 \033[0m\n";
+	cout<<"\033[1;34m Y88888P'  `8888P'  dP     dP dP     dP 88888888P Y88888P'    dP           dP \033[0m\n";
+	cout<<"\n";
+	cout<<"\033[1;34m                                      8         o   o             \033[0m\n";
+	cout<<"\033[1;34m                                      8         8                 \033[0m\n";
+	cout<<"\033[1;34m           oPYo. .oPYo. o    o .oPYo. 8 o    o o8P o8 .oPYo. odYo.\033[0m\n";
+	cout<<"\033[1;34m           8  `' 8oooo8 Y.  .P 8    8 8 8    8  8   8 8    8 8' `8\033[0m\n";
+	cout<<"\033[1;34m           8     8.     `b..d' 8    8 8 8    8  8   8 8    8 8   8\033[0m\n";
+	cout<<"\033[1;34m           8     `Yooo'  `YP'  `YooP' 8 `YooP'  8   8 `YooP' 8   8\033[0m\n";
+	cout<<"\n";
+	cout<<"\033[1;35m                                  ,ad8888ba,    \033[0m\n";
+	cout<<"\033[1;35m                                 d8^' .8 `^8b   \033[0m\n";
+	cout<<"\033[1;35m                                d8'  d'8   `8b  \033[0m\n";
+	cout<<"\033[1;35m                                88  d' 8    88  \033[0m\n";
+	cout<<"\033[1;35m                                88 Pooooooo 88  \033[0m\n";
+	cout<<"\033[1;35m                                Y8,    8   ,8P  \033[0m\n";
+	cout<<"\033[1;35m                                 Y8a.  8 .a8P   \033[0m\n";
+	cout<<"\033[1;35m                                  `^Y8888Y^'    \033[0m\n";
 }
 
 void printMenu()
@@ -97,10 +97,10 @@ void printQuick()
 void printHighs()
 {
 	system("clear");
-        cout<<"8   8 888 .d88b  8   8    .d88b. .d88b .d88b. 888b. 8888 .d88b. "<<"\n";
-        cout<<"8www8  8  8P www 8www8    YPwww. 8P    8P  Y8 8  .8 8www YPwww. "<<"\n";
-        cout<<"8   8  8  8b  d8 8   8        d8 8b    8b  d8 8wwK' 8        d8 "<<"\n";
-        cout<<"8   8 888 `Y88P' 8   8    `Y88P' `Y88P `Y88P' 8  Yb 8888 `Y88P' "<<"\n";
+        cout<<"\033[1;31m8   8 888 .d88b  8   8    .d88b. .d88b .d88b. 888b. 8888 .d88b. \033[0m\n";
+        cout<<"\033[1;31m8www8  8  8P www 8www8    YPwww. 8P    8P  Y8 8  .8 8www YPwww. \033[0m\n";
+        cout<<"\033[1;31m8   8  8  8b  d8 8   8        d8 8b    8b  d8 8wwK' 8        d8 \033[0m\n";
+        cout<<"\033[1;31m8   8 888 `Y88P' 8   8    `Y88P' `Y88P `Y88P' 8  Yb 8888 `Y88P' \033[0m\n";
 	cout<<"\n";
 }
 
@@ -130,22 +130,22 @@ void printWinner(int player)
 	system("clear");
 	if(player==1)
 	{
-		cout<<"            d8888b. db       .d8b.  db    db d88888b d8888b.    db "<<"\n";
-		cout<<"            88  `8D 88      d8' `8b `8b  d8' 88'     88  `8D   o88 "<<"\n",
-		cout<<"            88oodD' 88      88ooo88  `8bd8'  88ooooo 88oobY'  o 88 "<<"\n";
-		cout<<"            88~~~   88      88~~~88    88    88~~~~~ 88`8b      88 "<<"\n";
-		cout<<"            88      88booo. 88   88    88    88.     88 `88.    88 "<<"\n";
-		cout<<"            88      Y88888P YP   YP    YP    Y88888P 88   YD    VP "<<"\n";
+		cout<< "\033[1;31m            d8888b. db       .d8b.  db    db d88888b d8888b.    db \033[0m\n";
+		cout<< "\033[1;31m            88  `8D 88      d8' `8b `8b  d8' 88'     88  `8D   o88 \033[0m\n";
+		cout<< "\033[1;31m            88oodD' 88      88ooo88  `8bd8'  88ooooo 88oobY'  o 88 \033[0m\n";
+		cout<< "\033[1;31m            88~~~   88      88~~~88    88    88~~~~~ 88`8b      88 \033[0m\n";
+		cout<< "\033[1;31m            88      88booo. 88   88    88    88.     88 `88.    88 \033[0m\n";
+		cout<< "\033[1;31m            88      Y88888P YP   YP    YP    Y88888P 88   YD    VP \033[0m\n";
 		cout<<"\n";
 	}
 	else if(player==2)
 	{
-		cout<<"            d8888b. db       .d8b.  db    db d88888b d8888b.  .d888b. "<<"\n";
-		cout<<"            88  `8D 88      d8' `8b `8b  d8' 88'     88  `8D  VP  `8D "<<"\n",
-		cout<<"            88oodD' 88      88ooo88  `8bd8'  88ooooo 88oobY'      odD' "<<"\n";
-		cout<<"            88~~~   88      88~~~88    88    88~~~~~ 88`8b      .88' "<<"\n";
-		cout<<"            88      88booo. 88   88    88    88.     88 `88.   j88. "<<"\n";
-		cout<<"            88      Y88888P YP   YP    YP    Y88888P 88   YD   888888D "<<"\n";
+		cout<< "\033[1;33m            d8888b. db       .d8b.  db    db d88888b d8888b.  .d888b. \033[0m\n";
+		cout<< "\033[1;33m            88  `8D 88      d8' `8b `8b  d8' 88'     88  `8D  VP  `8D \033[0m\n";
+		cout<< "\033[1;33m            88oodD' 88      88ooo88  `8bd8'  88ooooo 88oobY'      odD' \033[0m\n";
+		cout<< "\033[1;33m            88~~~   88      88~~~88    88    88~~~~~ 88`8b      .88' \033[0m\n";
+		cout<< "\033[1;33m            88      88booo. 88   88    88    88.     88 `88.   j88. \033[0m\n";
+		cout<< "\033[1;33m            88      Y88888P YP   YP    YP    Y88888P 88   YD   888888D \033[0m\n";
 		cout<<"\n";
 	}
 	cout<<"                    db   d8b   db d888888b d8b   db .d8888. "<<"\n";
@@ -174,3 +174,16 @@ void printDraw()
 	system("clear");
 }
 
+
+void printPlayer(int player)
+{
+	cout<< "Jugador"<< player;
+	if(player==1)
+	{
+		cout<< "("<< "\033[1;31m®\033[0m"<<")"<<"\n";
+	}
+		else if(player==2)
+	{
+		cout<< "("<< "\033[1;33m®\033[0m"<<")"<<"\n";
+	}
+}
