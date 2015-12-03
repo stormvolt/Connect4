@@ -36,40 +36,39 @@ void Menu::showMenu()
 	cout<<"\n";
 	cout<< "Opción seleccionada: ";
 	cin>> cursor;
-	while(cursor<1 || cursor>7)
+	while(cursor<'1' || cursor>'7')
 	{
 		cout<< "Opción no válida, intente con otra."<<"\n";
 		cout<< "Opción seleccionada: ";
 		cin>>cursor;
 	}
-	if(cursor==1)
+	if(cursor=='1')
 	{
 		startClassic();	
 	}
-	else if(cursor==2)
+	else if(cursor=='2')
 	{
 		startPop();	
 	}
-	else if(cursor==3)
+	else if(cursor=='3')
 	{
 		startRow();	
 	}
-	else if(cursor==4)
+	else if(cursor=='4')
 	{
 		startFive();	
 	}
-	else if(cursor==5)
+	else if(cursor=='5')
 	{
 		startQuick();	
 	}
-	else if(cursor==6)
+	else if(cursor=='6')
 	{
 		showScores();	
 	}
-	else if(cursor==7)
+	else if(cursor=='7')
 	{
 		stillAlive = false;	
 	}
 	system("clear");
 }
-
